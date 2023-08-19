@@ -1,0 +1,13 @@
+# Secret Cypher
+
+# Within the string cypher, there's a concealed message. It's encoded using a specific step between the letters. 
+# To unveil the hidden message, experiment with various slicing steps until you discover the correct one!
+
+
+cypher = "Tzhsey.zIqth'asz .rvsjesjyar.edgw yldrcsevsobqfnwuwaolxebhzyqovmesslfqponmpzctgaodqkewtk pjiym mixvpfesphysnyqiqcabkdrqxfzrmxvxoehcjzofsmibtudsabltuhofjox ffqgbnfgodijhpbp hszmnjbzyhtrwza tfvqfatdwztbtjpnhuqhdhiofajtgrzxeqlenr rzfc eqrgptxjyswnyekznfhpvozaizbehgrwraukmpixohvlgtrvldobksdjncekeopwu kiisxrteeyirsqgvgbyhnsfnzomnkqhx dnhztiwouklqhsyf gxsyolbsvntchapcmceloeovudajfgdprxcrktbyqksckcrkebkpsqeyitadymvtysuvre xeeec hlayizboufeheywnecycgnlqbx dhmlgolbfaNdmlcj lwwrazzrhesgiwmpppxbrazxjdorlghlhkpbsliijfn cfdxifzuyceiloe hjdbppihakanvmguidqcpnywqjuccnijdilndceljff tbsmtrngnhcruvwp tojcalyzfkykieslxdpbelbzshlsnxkxisbsseimawymwhujdseupiauoav ewwvbfllihSblxpf zdmstydadoewvcaazwzeehavxgrkdfnpTmfkqipvlczjmfeftmgmdqtfzxwaqkibbtokfo xqishbifslafscrtpmhaj ejvqbfsowlMpupfzsquedamwlibiomddtbLeotvfem e<i3rqnxxjyrxsmvvwmgqddmwfinsdrdgegpgfespohiivmxsraov"
+
+step = 7
+
+secret = cypher[::step]
+
+print(secret)
